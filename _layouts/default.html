@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Hello, World!</title>
+    <link data-turbolinks-track rel="stylesheet" href="{% asset_path application.css %}">
+    <script data-turbolinks-track src="{% asset_path vendor/modernizr.js %}"></script>
+  </head>
+  <body>
+  	{% include header.html %}
+  	{{ content }}
+  	{% include footer.html %}
+    <script data-turbolinks-track src="{% asset_path application.js %}"></script>
+  </body>
+</html>
