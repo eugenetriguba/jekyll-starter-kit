@@ -23,6 +23,7 @@ I tried to provide general tools that help you develop quicker, manage your proj
  - [jekyll-assets](https://github.com/jekyll/jekyll-assets) - Asset pipelines for Jekyll.
  - [therubyracer](https://github.com/cowboyd/therubyracer) - Embed V8 Javascript Interpreter into Ruby. Required to make jekyll-assets work.
  - [jekyll-feed](https://github.com/jekyll/jekyll-feed) - Generates an Atom (RSS-like) feed of your posts.
+ - [google analytics](https://analytics.google.com/analytics/web/) - Provide statistics for who visits your site. Just place your site ID code into the config file to activate it.
 
 ## Installing & Deploying with GitLab Pages
 
