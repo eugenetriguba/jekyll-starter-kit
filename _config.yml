@@ -19,3 +19,10 @@ assets:
   compress:
     css:  sass
     js:   uglifier
+
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/javascripts/vendor
+    - _assets/stylesheets
+    - _assets/stylesheets/vendor
