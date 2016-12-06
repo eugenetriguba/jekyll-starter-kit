@@ -17,4 +17,4 @@ This all makes writing HTML, CSS, and JavaScript faster and more enjoyable.
 
 ## Looking to contribute?
 
-It would be best to submit an issue detailing what you were thinking on adding or changing or contact me at [eugenetriguba@gmail](mailto:eugenetriguba@gmail). If you just have some suggestions on things that could be improved or bugs that need fixing, I'd also love to hear it also!
+It would be best to submit an issue, or contact me at [eugenetriguba@gmail](mailto:eugenetriguba@gmail), detailing what you were looking to add, change, or fix. If you just have some suggestions on things that could be improved or bugs that need fixing, I'd love to hear it also!
