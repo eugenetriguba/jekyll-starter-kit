@@ -1,13 +1,17 @@
+# Required for Jekyll Feed
 title: Hello, World!
-email: email@domain.com
 description: >
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+url: http://example.com
+author: Author
 
+# Build Settings
 markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-assets
 
+# Configuration for Assets Pipeline. Compresses css & js.
 assets:
   compress:
     css:  sass
