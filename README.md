@@ -28,46 +28,46 @@ I tried to provide general tools that help you develop quicker, manage your proj
 ## Installing & Deploying with GitLab Pages
 
 1. Clone repo down locally
-```
-$ git clone https://github.com/eugenetriguba/jekyll-starter-kit.git my-awesome-site
-```
+  ```
+  $ git clone https://github.com/eugenetriguba/jekyll-starter-kit.git my-awesome-site
+  ```
 
 2. Change directory into repo
-```
-$ cd my-awesome-site
-```
+  ```
+  $ cd my-awesome-site
+  ```
 
 3. Remove previous git history
-```
-$ rm -rf .git
-```
+  ```
+  $ rm -rf .git
+  ```
 
 4. Initialize new git file
-```
-$ git init
-```
+  ```
+  $ git init
+  ```
 
 5. Add all files in directory to staging area
-```
-$ git add .
-```
+  ```
+  $ git add .
+  ```
 
 6. Commit files
-```
-$ git commit -m "Initial Commit"
-```
+  ```
+  $ git commit -m "Initial Commit"
+  ```
 
 7. Create a new GitLab repo
 
 8. Add that repo as a remote to your project.
-```
-$ git remote add origin https://gitlab.com/username/username.gitlab.io.git
-```
+  ```
+  $ git remote add origin https://gitlab.com/username/username.gitlab.io.git
+  ```
 
 9. Push up your commit
-```
-$ git push -u origin master
-```
+  ```
+  $ git push -u origin master
+  ```
 
 That's it. GitLab will start building your site and it will be live at username.gitlab.io.
 
@@ -77,6 +77,7 @@ If you didn't name your repo 'username.gitlab.io', you will need to add a domain
 
 To point your domain at GitLab, go to your domain registrar.
 You will need two records for this to work.
+
 1. An A record with @ as the host and 104.208.235.32 as the IP.
 
 2. A CNAME record with www as the host (if you're connecting the root domain, 'blog' or whatever else, if you wish to use a subdomain. e.g. blog.example.com) and username.gitlab.io as the IP (even if your repo isn't called username.gitlab.io).
