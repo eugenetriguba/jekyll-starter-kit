@@ -57,9 +57,9 @@ I tried to provide general tools that help you develop quicker, manage your proj
   $ git commit -m "Initial Commit"
   ```
 
-7. Create a new GitLab repo
+7. Create a new GitLab repo with a name of username.gitlab.io (where username is your GitLab username)
 
-8. Add that repo as a remote to your project.
+8. Add that repo as a remote to your project
   ```
   $ git remote add origin https://gitlab.com/username/username.gitlab.io.git
   ```
