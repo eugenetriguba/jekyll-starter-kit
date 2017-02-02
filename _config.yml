@@ -1,4 +1,4 @@
-# Required for Jekyll Feed
+# Basic website information
 title: Hello, World!
 description: >
   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
@@ -10,19 +10,8 @@ google_analytics: UA-XXXXX-Y
 
 # Build Settings
 markdown: kramdown
+sass:
+  sass_dir: /assets/stylesheets/
+  style: compressed
 gems:
   - jekyll-feed
-  - jekyll-assets
-
-# Configuration for Assets Pipeline. Compresses css & js.
-assets:
-  compress:
-    css:  sass
-    js:   uglifier
-
-  sources:
-    - _assets/images
-    - _assets/javascripts
-    - _assets/javascripts/vendor
-    - _assets/stylesheets
-    - _assets/stylesheets/vendor
