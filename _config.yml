@@ -13,5 +13,3 @@ markdown: kramdown
 sass:
   sass_dir: /assets/stylesheets/
   style: compressed
-gems:
-  - jekyll-feed
